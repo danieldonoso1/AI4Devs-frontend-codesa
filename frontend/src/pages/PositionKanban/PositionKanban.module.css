@@ -1,0 +1,77 @@
+.container {
+  padding: 20px;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.backButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 16px;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.backButton:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.kanbanBoard {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  padding-bottom: 16px;
+}
+
+.column {
+  min-width: 280px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.columnHeader {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.columnContent {
+  min-height: 100px;
+}
+
+.card {
+  background: white;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card h4 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .kanbanBoard {
+    flex-direction: column;
+  }
+
+  .column {
+    min-width: 100%;
+  }
+} 

@@ -1,0 +1,17 @@
+{
+  "loading": "Cargando...",
+  "position": {
+    "title": "Posición",
+    "back": "Volver"
+  },
+  "candidate": {
+    "score": "Puntuación: {{score}}"
+  },
+  "stages": {
+    "initial": "Inicial",
+    "interview": "Entrevista",
+    "technical": "Técnica",
+    "final": "Final",
+    "hired": "Contratado"
+  }
+} 

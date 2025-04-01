@@ -1,0 +1,17 @@
+{
+  "loading": "Kargando...",
+  "position": {
+    "title": "Posishon",
+    "back": "Bai bèk"
+  },
+  "candidate": {
+    "score": "Puntuashon: {{score}}"
+  },
+  "stages": {
+    "initial": "Inisial",
+    "interview": "Entrevista",
+    "technical": "Téknico",
+    "final": "Final",
+    "hired": "Kontratá"
+  }
+} 
